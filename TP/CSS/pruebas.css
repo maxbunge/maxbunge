@@ -1,0 +1,110 @@
+grid {
+    padding: 1rem;
+    height: 100rem;
+    
+     display: grid;
+     grid-template-areas: "head head head"
+                         "1 2 3"
+                         "4 5 6"
+                         "7 8 9"
+                         ". 10 ."
+                         "foot foot foot";
+     border: 1px black;  
+     grid-gap: 0.8rem                  
+    
+ }
+ 
+ .header {grid-area: h2;}
+ .sidebar {grid-area: menu; background: darkblue;}
+ .content {grid-area: main; background: darkgray;}
+ .footer {grid-area: foot; background: #1c1c1c;}
+ 
+ 
+ 
+ /*header {
+     position: relative;
+     width: 100%;
+     padding: 8rem;
+     background-color: #1c333f;
+     height: 4rem;
+     border-radius: 1rem;
+ 
+ 
+ }
+ 
+ head {
+     display: inline-block;
+ }
+ .nav-bar {
+     position: fixed;
+     right: 0;
+     list-style: none;
+     padding: -5rem;
+     
+     
+ }
+ 
+ .nav-bar li {
+     display: inline-block;
+     margin-right: 0;
+     margin-top: 0;
+ }
+ 
+ .nav-bar li a {
+     text-decoration: none;
+     border-radius: 1rem;
+     font-size: 3rem;
+     color: white;
+     transition: 1s;
+     padding: 2rem;
+ }   
+ 
+ .nav-list li a:hover {
+     background-color: #cccccc;
+     color: black;
+ }
+ 
+ .logo {
+     position: absolute;
+     left: 2;
+     height: 7rem;
+ }
+ 
+ <div class="equipos">
+    <div class="a">
+    <img src="logotipo/Teams/alfa romeo.png" alt="Alfa Romeo" class="1">
+    </div>
+    <div class="b">
+    <img src="logotipo/Teams/Alpha Tauri.png" alt="Alpha Tauri" class="2">
+    </div>
+    <div class="c">
+    <img src="logotipo/Teams/Ferrari.png" alt="Ferrari" class="3">
+    </div>
+    <div class="d">
+    <img src="logotipo/Teams/Haas.png" alt="Haas" class="4">
+    </div>
+    <div class="e">
+    <img src="logotipo/Teams/McLaren.png" alt="McLaren" class="5">
+    </div>
+    <div class="f">
+    <img src="logotipo/Teams/Mercedes.png" alt="Mercedes" class="6">
+    </div>
+    <div class="g">
+    <img src="logotipo/Teams/Racing Point.png" alt="Racing Point" class="7">
+    </div>
+    <div class="h">
+    <img src="logotipo/Teams/Red Bull.png" alt="Red Bull" class="8">
+    </div>
+    <div class="i">
+    <img src="logotipo/Teams/Renault.png" alt="Renault" class="9">
+    </div>
+    <div class="j">
+    <img src="logotipo/Teams/Williams.png" alt="Williams" class="10">
+    </div>
+
+
+</div>
+ 
+ 
+ */
+
